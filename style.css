@@ -71,6 +71,13 @@ input:checked + label{
     border: none;
     width: fit-content;
 }
+@media(max-width: 676px) {
+    .list,
+    .container 
+    ,.content{
+        width: 100% !important;
+    }
+  }
 label{
     flex: start;
     flex: 1;
